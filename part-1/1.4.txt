@@ -1,0 +1,32 @@
+PS F:\F\Projektit\devops-with-docker\part-1> docker run -d devopsdockeruh/exec_bash_exercise
+Unable to find image 'devopsdockeruh/exec_bash_exercise:latest' locally
+latest: Pulling from devopsdockeruh/exec_bash_exercise
+741437d97401: Pull complete
+34d8874714d7: Pull complete
+0a108aa26679: Pull complete
+7f0334c36886: Pull complete
+65c95cb8b3be: Pull complete
+a36b708560f8: Pull complete
+4090f912e6c7: Pull complete
+ce5fe2607c2e: Pull complete
+9400f5f657d6: Pull complete
+c4919883f7fa: Pull complete
+Digest: sha256:c463832132d1fb0b8b3b60348a6fc36fda7512a4ef2d1050e8bea7b6a6d7a2f3
+Status: Downloaded newer image for devopsdockeruh/exec_bash_exercise:latest
+c6f0dcbf0c90123fb9700df9e9e1f6ef9ec92856d416f51eac837fef71cee91f
+PS F:\F\Projektit\devops-with-docker\part-1> docker exec -it c6f0 bash
+root@c6f0dcbf0c90:/usr/app# tail -f ./logs.txt
+"Docker is easy"
+Fri, 19 Apr 2019 09:38:52 GMT
+Fri, 19 Apr 2019 09:38:55 GMT
+Fri, 19 Apr 2019 09:38:58 GMT
+Fri, 19 Apr 2019 09:39:01 GMT
+Secret message is:
+"Docker is easy"
+Fri, 19 Apr 2019 09:39:07 GMT
+Fri, 19 Apr 2019 09:39:10 GMT
+Fri, 19 Apr 2019 09:39:13 GMT
+Fri, 19 Apr 2019 09:39:16 GMT
+Secret message is:
+"Docker is easy"
+Fri, 19 Apr 2019 09:39:22 GMT
