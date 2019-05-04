@@ -1,0 +1,2 @@
+docker run -d -v ${pwd}/logs.txt:/app/logs.txt -p 8000:8000 be1.12
+docker run -d -p 5000:5000 fe1.12

@@ -1,0 +1,1 @@
+PS F:\F\Projektit\devops-with-docker\part-1\1.11> docker run -d -v ${pwd}/logs.txt:/app/logs.txt -p 8000:8000 be1.11

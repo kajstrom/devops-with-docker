@@ -1,0 +1,1 @@
+PS F:\F\Projektit\devops-with-docker\part-1\1.10> docker run -d -p 5000:5000 fe1.10
