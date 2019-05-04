@@ -1,0 +1,13 @@
+PS F:\F\Projektit\devops-with-docker\part-1\1.8> echo $null >> logs.txt
+PS F:\F\Projektit\devops-with-docker\part-1\1.8> docker run -v ${pwd}/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+(node:1) ExperimentalWarning: The fs.promises API is experimental
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+PS F:\F\Projektit\devops-with-docker\part-1\1.8> cat .\logs.txt
+Sat, 04 May 2019 12:21:15 GMT
+Sat, 04 May 2019 12:21:18 GMT
+Sat, 04 May 2019 12:21:21 GMT
+Sat, 04 May 2019 12:21:24 GMT
+Secret message is:
+"Volume bind mount is easy"
