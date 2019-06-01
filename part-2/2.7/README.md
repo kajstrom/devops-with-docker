@@ -1,0 +1,1 @@
+Note: I had to edit `app.py` in backend to remove the debug mode to get it working because of this error: https://stackoverflow.com/questions/55271912/flask-cli-throws-oserror-errno-8-exec-format-error-when-run-through-docker
